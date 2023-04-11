@@ -1,0 +1,155 @@
+/* All */
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+    color: black;
+    font-family: Helvetica;
+    letter-spacing: 0.5px;
+    line-height: 1.3;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    height: 50px;
+    padding-left: 20px;
+    padding: 20px;
+}
+
+#navbar > ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}
+
+#navbar > ul > li {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-left: 20px;
+}
+
+#navbar > ul > li > a {
+    text-decoration: none;
+}
+
+#navbar > ul > li > a:hover {
+    color: white;
+}
+
+/* Home */
+
+#home > div {
+    padding-top: 20px;;
+    padding-left: 20px;
+}
+
+/* About */
+
+#aboutArticle {
+    display: flex;
+    flex: column;
+    width: 100vw;
+}
+
+#aboutArticle > img {
+    padding-left: 20px;
+    padding-top: 20px;
+    width: 450px;
+}
+
+#aboutArticle > article {
+    text-align: justify;
+    padding: 20px 25px 0px 20px;
+}
+
+article::first-letter {
+    initial-letter: 3;
+    padding-right: 10px;
+}
+
+/* Works */
+
+h2 {
+    padding-left: 20px;
+}
+
+#movies {
+    width: 100vw;
+}
+
+#listOfMovies {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#listOfMovies > li {
+    width: 300px;
+    list-style-type: none;
+    padding: 20px;
+}
+
+#listOfMovies > li > ul > li{
+    list-style-type: none;
+    text-align: left;
+    font-size: 15px;
+    inline-size: 300px;
+    overflow-wrap: break-word;
+}
+
+.movieTitle {
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.listImage {
+    width: 300px;
+    height: 450px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+/* Photo Gallery */
+
+#photoGallery {
+    width: 100vw;
+}
+
+#photoList {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#photoList > li {
+    width: 650px;
+    list-style-type: none;
+    padding: 20px;
+}
+
+#photoList > li > ul > li{
+    list-style-type: none;
+    text-align: left;
+    font-size: 15px;
+}
+
+.title {
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.img {
+    width: 650px;
+    height: 950px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
